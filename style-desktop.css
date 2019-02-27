@@ -1,0 +1,43 @@
+
+
+@media screen and (min-width: 601px){
+	#coverPhoto {
+		background: url('thinkingman2.jpg') no-repeat center;
+		background-size: contain;
+		width: 50%;
+		height: 50em;
+		float: left;		
+	}
+
+	#mobileHeader {
+		display: none;
+	}		
+}
+
+@media screen and (max-width: 600px)  {
+	#coverPhoto {
+		background: url('website3.png') no-repeat top;
+		background-size: cover;
+		width: 100%;
+		height: 12em;
+		
+	}
+	#desktopHeader {
+		display: none;
+	}
+	#mobileHeader {
+		color: white;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-end;
+	}
+	#mobileHeader h1 {
+		padding-top: 7em;
+		font-size: 1em;
+	}
+	#mobileHeader h3 {
+
+		font-size: 1em;
+	}
+}
